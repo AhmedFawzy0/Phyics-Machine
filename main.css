@@ -1,0 +1,120 @@
+body{
+	
+	 background-image: url("sky1.jpg");
+	font-family: arial;
+	  background-repeat: no-repeat;
+	background-size:cover
+}
+
+.title {
+  position: fixed;
+  bottom: 10%;
+  left: 32%;
+  width: 32vw;
+  text-align: center;
+  
+}
+
+p
+{
+	font-size: 2.7vw;
+	background: #66FF00;
+
+}
+
+h1
+{
+	font-size: 1.5vw;
+	color: black;
+}
+
+.dir
+{
+width:20%;
+text-align: center;
+position:fixed;
+bottom:25%;
+left:38%;
+font-size: max(1.2vw, 15px);
+
+color: black;
+background: #66FF00;
+}
+
+.textCol
+{	
+	width: 20%;
+	position: fixed;
+  	bottom: 40%;
+  	left: 10%;
+}
+
+.textRamp
+{	
+	width: 20%;
+	position: fixed;
+  	bottom: 40%;
+  	right: 20%;
+  
+}
+
+.col {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 3px;
+	width: 30%;
+	border-color: red;
+	position: fixed;
+  	bottom: 50%;
+ 	left: 10%;
+ 	margin: 0;
+    padding: 0;
+  	
+}
+
+
+.col img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+    display: block;
+}
+
+.col img:hover
+{
+	opacity: 0.7;
+}
+
+.ramp {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 3px;
+	width: 30%;
+	border-color: red;
+	position: fixed;
+  	bottom: 50%;
+  	right: 15%;	  	
+}
+
+.ramp img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+    display: block;
+}
+
+.ramp img:hover
+{
+	opacity: 0.7;
+}
+
+.credit
+{
+	position: fixed;
+	bottom: 15%;
+	left:5%;
+	color:white;
+	font-size: 1vw;
+	background-color: rgb(72,72,72);
+
+}
