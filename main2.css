@@ -209,7 +209,7 @@ font-family: Arial, sans-serif;
 color: rgb(94,88,88);
  position: fixed;
   top: 10%;
-  left: 45%;
+  left: max(45vw, calc(4vh*10 + +100px));
 }
 
 #new2
@@ -220,7 +220,7 @@ color: rgb(94,88,88);
 font-family: Arial, sans-serif;
  position: fixed;
   top: 15%;
-  left: 45%;
+  left: max(45vw, calc(4vh*10 + +100px));
 }
 
 #new3
@@ -231,7 +231,7 @@ color: rgb(94,88,88);
 font-family: Arial, sans-serif;
  position: fixed;
   top: 20%;
-  left: 45%;
+  left: max(45vw, calc(4vh*10 + +100px));
 }
 
 .credit
